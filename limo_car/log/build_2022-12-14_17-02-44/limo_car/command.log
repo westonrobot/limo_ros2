@@ -1,0 +1,6 @@
+Invoking command in '/home/zhuili/limo/src/limo_car/build/limo_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhuili/limo/src/limo_car -DCMAKE_INSTALL_PREFIX=/home/zhuili/limo/src/limo_car/install/limo_car
+Invoked command in '/home/zhuili/limo/src/limo_car/build/limo_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhuili/limo/src/limo_car -DCMAKE_INSTALL_PREFIX=/home/zhuili/limo/src/limo_car/install/limo_car
+Invoking command in '/home/zhuili/limo/src/limo_car/build/limo_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhuili/limo/src/limo_car/build/limo_car -- -j16 -l16
+Invoked command in '/home/zhuili/limo/src/limo_car/build/limo_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhuili/limo/src/limo_car/build/limo_car -- -j16 -l16
+Invoking command in '/home/zhuili/limo/src/limo_car/build/limo_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhuili/limo/src/limo_car/build/limo_car
+Invoked command in '/home/zhuili/limo/src/limo_car/build/limo_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhuili/limo/src/limo_car/build/limo_car
