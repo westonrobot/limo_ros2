@@ -17,5 +17,5 @@ ROS2 Version: Humble
 3. Build packages
    ```
    $ cd ..
-   $ colcon build --symlink-install --executor sequential
+   $ colcon build --executor sequential
    ```
