@@ -77,6 +77,20 @@ ament_target_dependencies(traffic_light
 "image_transport")
 install(TARGETS traffic_light RUNTIME DESTINATION lib/${PROJECT_NAME})
 
+
+
+add_executable(detect_rgb src/detect_rgb.cpp)
+ament_target_dependencies(detect_rgb 
+"cv_bridge"
+"geometry_msgs"
+"std_msgs"
+"rclcpp"
+"sensor_msgs"
+"image_transport")
+install(TARGETS detect_rgb RUNTIME DESTINATION lib/${PROJECT_NAME})
+
+
+
 ament_export_include_directories(include)
 ament_export_dependencies(cv_bridge image_transport pluginlib rosidl_default_runtime rclcpp sensor_msgs)
 if(BUILD_TESTING)
