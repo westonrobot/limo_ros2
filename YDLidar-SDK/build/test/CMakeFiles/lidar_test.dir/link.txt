@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -rdynamic CMakeFiles/lidar_test.dir/lidar_test.cpp.o -o lidar_test  ../libydlidar_sdk.a /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libgtest_main.a -lpthread -lrt /usr/lib/x86_64-linux-gnu/libgtest.a 
